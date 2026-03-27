@@ -9,7 +9,7 @@ In this repository, we provide a framework for water level prediction.
 
 •	**You need to first run .py files in 1_Concatenation folder. Then run the .py files in 2_Preprocessing and afterward .py files in 3_Prediction
 
-•	**To make it easier, you can download all the files in 3_Prediction folder and run the .py files there. We have put all the data files after preprocessing in 3_Prediction folder.
+•	**To make it easier, you can download all the files in 3_Prediction folder and run the .py files there. We have put all the data files after preprocessing in 3_Prediction folder. In each of these folders, the order of running .py files is clear by the number. As an example, we have 1_prediction_main, then 2_plot_errors_vs_epochs.py, ... in 3_Prediction folder, which shows the order of running .py files.
 
 •	**For the explanation part, you can easily remove the features that you want from the 1_prediction-main.py file in 3_Prediction folder. It is expressed as a comment in this .py file. Only to remove "tide" feature, we you need to run 4_XAI_without_tide.py file. 
 
