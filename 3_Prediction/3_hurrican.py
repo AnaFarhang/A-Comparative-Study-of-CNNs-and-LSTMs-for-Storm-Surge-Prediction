@@ -29,7 +29,7 @@ def mse_metric(y_true, y_pred):
 datum = 'MSL'
 station='8726520'
 
-start_time=np.datetime64('2022-09-28T00:00:00')
+start_time=np.datetime64('2022-09-27T12:00:00')
 end_time  =np.datetime64('2022-09-30T00:00:00')
 
 
